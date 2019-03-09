@@ -7,9 +7,6 @@
     android:visibility="visible"
     tools:context=".CalculatorActivity">
 
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar"
-        android:visibility="visible" />
+
 
 </RelativeLayout>

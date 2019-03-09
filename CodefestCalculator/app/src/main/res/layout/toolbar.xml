@@ -6,6 +6,11 @@
     android:background="@color/colorBlue"
     android:maxHeight="100dp">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/index"
+        android:layout_height="wrap_content"/>
+
     <TextView
         android:id="@+id/toolbar_title"
         android:layout_width="wrap_content"
@@ -13,11 +18,8 @@
         android:layout_gravity="center"
         android:textSize="20sp"
         android:textColor="@color/colorWhite"
+        android:text="@string/codefest_calculator"
         />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:src="@drawable/index"
-        android:layout_height="wrap_content"/>
 
 </android.support.v7.widget.Toolbar>
